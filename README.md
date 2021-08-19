@@ -6,9 +6,7 @@ Integrantes: David Perez Mejia y Nicolas Camacho Hurtado
 
 ### ¿Cuál es su mayor utilidad?
 
-Facilitar la creación y gestión de proyectos de Software, basándose en el concepto de modelo de objeto de proyecto (POM).
-
-Presenta una ventaja y es la conectividad remota a su propio repositorio, permitiendo acceso a utilidades adicionales, que solo son usadas si uno lo desea.
+FALTA
 
 ### Fases de Maven
 
@@ -22,13 +20,11 @@ Presenta una ventaja y es la conectividad remota a su propio repositorio, permit
 
 > **¿Qué es un plugin?**
 > 
-> Un Plugin es un fragmento o componente de código hecho para ampliar las funciones de un programa o de una herramienta.
+> FALTA
 
 ### ¿Qué es y para qué sirve el repositorio central de maven?
 
-Es un espacio público en el que se puede tanto subir como descargar plugins útiles para la comunidad.
-
-En su página principal se puede encontrar de manera cronológica las más recientes publicaciones, aunque se pueden filtrar por categorias con un menú en la parte de la izquierda, buscando la funcionalidad que necesitemos.
+FALTA
 
 
 ## ¿Cómo se crea un proyecto en Maven con ayuda de arquetipos?
@@ -90,6 +86,38 @@ Para ejecutar desde la linea de comandos usamos el comando siguiente:
 Ejecutamos desde la linea de comandos con diferentes parametros, el primero solo con un nombre "Nicolas" y la segunda ejecución con nombre y apellido "David Perez".
       
 ![helloname](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/helloname.PNG)
+      
+      
+# **HACER EL ESQUELETO DE LA APLICACION**
+      
+      
+Se realiza la creación de los archivos como lo indica el laboratorio en cada una de las carpetas, como tambien el archivo ShapeFactory con el patron de diseño Fabrica (Factory).
+
+![factory](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/factory.PNG)
+
+Realizamos la ejecucución de la clase ShapeMain con diferentes parametros
+
+* Sin parametros 
+
+Podemos ver que salta la excepción indicando que es necesario incluir un parametro
+
+![sinparametros](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/sinparametros.PNG)
+
+* Parametro "qwerty"
+
+Nos indica que no es un parametro valido
+
+![qwerty](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/qwerty.PNG)
+
+* Parametro "Pentagon"
+
+![pentagon](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/pentagon.PNG)
+
+* Parametro "Hexagon"
+
+![hexagon](https://github.com/Haatom/Laboratorio-2/blob/master/Resources/hexagon.PNG)
+
+
       
       
       
