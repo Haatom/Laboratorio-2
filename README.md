@@ -6,7 +6,10 @@ Integrantes: David Perez Mejia y Nicolas Camacho Hurtado
 
 ### ¿Cuál es su mayor utilidad?
 
-FALTA
+Maven se usa principalmente para la gestion y construccion de software como la compilación del código y su empaquetado. Es decir, hace posible la creación de software con dependencias incluidas dentro de la estructura del JAR de una forma comoda.
+
+
+
 
 ### Fases de Maven
 
@@ -19,12 +22,11 @@ FALTA
 ### ¿Para qué sirven los plugins?
 
 > **¿Qué es un plugin?**
-> 
-> FALTA
+Un plugin es un pequeño programa complementario que amplian las funciones de aplicaciones web y programas de escritorio, en otras palabras añaden o mejoran funciones de distintos softwares. Aportan funciones adidcionales sin aumentar notablemente el tamaño de la aplicacion principial.
 
 ### ¿Qué es y para qué sirve el repositorio central de maven?
 
-FALTA
+ES una estructuta de directorios que contiene los plugins, contiene las librerias de uso general, para los plugins y las librerias mas especificas del portal REDD.
 
 
 ## ¿Cómo se crea un proyecto en Maven con ayuda de arquetipos?
